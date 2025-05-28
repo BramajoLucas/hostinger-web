@@ -20,6 +20,57 @@
 --borde-claro: 1px solid #d5dfff;
 }
 
+html{
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 100px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    align-items: center;
+    padding: 0 24px;
+}
+
+header .header-left-content{
+    display: flex;
+    flex-direction: row;
+
+}
+
+header .header-options{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header .icon-hostinger{
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    gap: 20px;
+    position: relative;
+    bottom: 5px;
+    height: 147px 30px;
+}
+
+.btn-menu{
+    display: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
 .text-center{
     text-align: center;
 }
@@ -113,41 +164,6 @@ Color principal: #683ee6
 
 /* REM es una unidad que mide el font-size del html de nuestra pagina */
 /* 1 Rem = 16px */
-html{
-    font-size: 16px;
-}
-
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    height: 100px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
-    position: sticky;
-    top: 0px;
-    background-color: white;
-    align-items: center;
-    padding: 0 24px;
-}
-
-header .header-left-content{
-    display: flex;
-    flex-direction: row;
-
-}
-
-header .header-options{
-    text-decoration: none;
-    gap: 10px;
-}
-
-.btn-menu{
-    display: none;
-}
-
-.text-center{
-    text-align: center;
-}
 
 
 /* Cuando el ancho de mi pagina sea inferior a 1270px ocurrira x cosa */
