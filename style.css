@@ -45,7 +45,7 @@ header .header-left-content{
     color: black;
 }
 
-header .header-options{
+.header-options{
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -80,11 +80,9 @@ header .header-right-content button{
     color: black;
     background-color: transparent;
     border-radius: 8px;
+    
 }
 
-header .icon-argentina{
-    height: 97px 24px;
-}
 
 .color-72{
     color: var(--color-principal-400);
@@ -99,7 +97,6 @@ header .icon-argentina{
     padding-bottom: 70px;
     padding-top: 36px;
 }
-
 
 
 .section-right-hero img{
@@ -207,6 +204,9 @@ header .icon-argentina{
     color: var(--color-principal-500);
     display: flex;
     flex-direction: column;
+    width: 440px;
+    height: 442px;
+    padding-left: 50px;
 }
 
 .items-hero{
@@ -248,6 +248,123 @@ header .icon-argentina{
     margin-top: 8px;
     margin-bottom: 12px;
 }
+
+.buttons-hero{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.timer{
+    align-items: center;
+    background-color: #e3dcfc;
+    border-radius: 8px;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    min-width: 160px;
+    margin-left: 10px;
+}
+
+.icon-argentina{
+    width: 32px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+
+
+footer{
+    background-color: #f4f5ff;
+    padding: 56px 113px 12px;
+}
+
+.content-top-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin-bottom: 40px;
+    max-width: 1128px;
+    margin: auto;
+}
+
+.content-footer-first{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+.hostinger-footer{
+    width: 147px;
+    height: 30px;
+    color: #311c6e;
+    fill: #311c6e;
+    margin-right: 300px;
+}
+
+.iconSM-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: #2f1c6a;
+    fill: #2f1c6a;
+}
+
+.iconSM{
+    width: 32px;
+    height: 32px;
+}
+
+.content-footer-second{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.cards-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.card-footer{
+    width: 60px;
+    height: 40px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 7px;
+}
+
+.card-more{
+    font-size: 14px;
+    color: #673de6;
+    font-weight: 700;
+}
+
+.legal-footer{
+    font-size: 14px;
+    color: #2f1c6a;
+    display: flex;
+    gap: 12px;
+    margin-top: 31px;
+}
+
+.content-bottom-footer{
+    padding: 24px 0;
+    color: #2f1c6a;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-top: 1px solid #d5dfff;
+    max-width: 1128px;
+    margin: auto;
+}
+
 /* 
 Color principal: #683ee6
 */
